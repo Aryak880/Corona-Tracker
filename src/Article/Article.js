@@ -34,9 +34,9 @@ const useStyles = makeStyles((theme) => ({
 
 function Article() {
   const classes = useStyles();
-
+  let i=0;
   const gridItems = cardData.map((data) => (
-    <Grid item xs={12} sm={6} md={4}>
+    <Grid item xs={12} sm={6} md={4} key={i++}>
         <Card className={classes.root}>
             <CardActionArea>
               <CardMedia
@@ -65,7 +65,7 @@ function Article() {
   return (
     <div className="App">
 
-      <div class="heroStyle">
+      <div className="heroStyle">
         
       </div>
       
