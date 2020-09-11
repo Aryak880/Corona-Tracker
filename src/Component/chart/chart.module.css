@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 770px){
+    .container{
+        width: 100%;
+    }
+}
