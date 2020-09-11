@@ -1,5 +1,8 @@
 import React from 'react';
-import './footer.css';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Footer = () => {
     return(
@@ -9,23 +12,23 @@ const Footer = () => {
                     <ul className="list-unstyled list-inline text-center">
                         <li className="list-inline-item">
                             <a className="btn-floating btn-fb mx-1" href="https://www.facebook.com/aryaksingh.chauhan.5/">
-                                <ion-icon name="logo-facebook"></ion-icon>
+                                <FacebookIcon />
                             </a>
                         </li>
                         <li className="list-inline-item">
                             <a className="btn-floating btn-tw mx-1" href="https://www.instagram.com/aryaksinghchauhan/">
-                                <ion-icon name="logo-instagram"></ion-icon>
+                                <InstagramIcon />
                             </a>
                         </li>
                         <li className="list-inline-item">
                             <a className="btn-floating btn-gplus mx-1" href="https://twitter.com/ChauhanAryak">
-                                <ion-icon name="logo-twitter"></ion-icon>
+                                <TwitterIcon />
                             </a>
                         </li>
                         
                         <li className="list-inline-item">
                             <a className="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/aryak-singh-chauhan-663a74197/">
-                            <ion-icon name="logo-linkedin"></ion-icon>
+                            <LinkedInIcon />
                             </a>
                         </li>
 
